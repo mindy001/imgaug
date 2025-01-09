@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "imgaug"
+version = "0.0.1"
+description = "This package does simple augmentation on image data"
+authors = ["Fazeeia Mohammed"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
